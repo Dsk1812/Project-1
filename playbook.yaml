@@ -15,5 +15,5 @@
        register: hello
      - debug:
           var: hello
-     - command: docker pull docker.io/kushalsamota/phpdemo
-     - command: docker run -itd --name phpdemo -p 80:80 kushalsamota/phpdemo
+     - command: docker pull docker.io/dsk1812/phpdemo
+     - command: docker run -itd --name phpdemo -p 80:80 dsk1812/phpdemo
