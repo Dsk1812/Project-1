@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: 18.117.238.191
   become: true
   remote_user: ec2-user
   tasks:
