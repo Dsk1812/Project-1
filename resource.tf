@@ -1,5 +1,5 @@
 resource "aws_instance" "web" {
-  ami                    = "ami-0ba62214afa52bec7"
+  ami                    = "ami-01e36b7901e884a10"
   instance_type          = "t2.micro"
   key_name               = "phpapplication"
   vpc_security_group_ids = [aws_security_group.allow_tls.id]
